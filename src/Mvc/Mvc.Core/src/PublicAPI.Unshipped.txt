@@ -333,6 +333,8 @@ Microsoft.AspNetCore.Mvc.FromRouteAttribute
 Microsoft.AspNetCore.Mvc.FromRouteAttribute.FromRouteAttribute() -> void
 Microsoft.AspNetCore.Mvc.FromServicesAttribute
 Microsoft.AspNetCore.Mvc.FromServicesAttribute.FromServicesAttribute() -> void
+Microsoft.AspNetCore.Mvc.HttpBrewAttribute
+Microsoft.AspNetCore.Mvc.HttpBrewAttribute.HttpBrewAttribute() -> void
 Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
 Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute() -> void
 Microsoft.AspNetCore.Mvc.HttpGetAttribute
@@ -1349,6 +1351,7 @@ virtual Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit
 ~Microsoft.AspNetCore.Mvc.FromRouteAttribute.Name.get -> string
 ~Microsoft.AspNetCore.Mvc.FromRouteAttribute.Name.set -> void
 ~Microsoft.AspNetCore.Mvc.FromServicesAttribute.BindingSource.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource
+~Microsoft.AspNetCore.Mvc.HttpBrewAttribute.HttpBrewAttribute(string template) -> void
 ~Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute(string template) -> void
 ~Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute(string template) -> void
 ~Microsoft.AspNetCore.Mvc.HttpHeadAttribute.HttpHeadAttribute(string template) -> void
